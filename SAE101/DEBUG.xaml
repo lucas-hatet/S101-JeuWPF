@@ -1,0 +1,18 @@
+﻿<Window
+    x:Class="SAE101.DEBUG"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:SAE101"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="DEBUG"
+    Width="300"
+    Height="500"
+    mc:Ignorable="d" Topmost="True">
+    <Grid >
+        <CheckBox x:Name="Top" Content="Top" HorizontalAlignment="Left" Margin="10,443,0,0" VerticalAlignment="Top" IsChecked="True" Click="Pin_Click"/>
+        <CheckBox x:Name="Col" Content="Col" HorizontalAlignment="Left" Margin="60,443,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Text" Content="DEBUG" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Consolas" Width="280" FontSize="10"/>
+        <CheckBox x:Name="Dieu" Content="Dieu" HorizontalAlignment="Left" Margin="110,443,0,0" VerticalAlignment="Top" IsChecked="False"/>
+    </Grid>
+</Window>
